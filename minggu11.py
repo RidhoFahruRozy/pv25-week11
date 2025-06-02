@@ -151,7 +151,7 @@ class ProdukUI(QMainWindow):
 
         container_layout.addLayout(input_layout)
         container_layout.addWidget(self.btn_tambah)
-        container_layout.addWidget(self.input_cari)  # Pencarian di bawah tombol Tambah
+        container_layout.addWidget(self.input_cari)  
         container_layout.addWidget(self.table)
         container_layout.addLayout(aksi_layout)
 
